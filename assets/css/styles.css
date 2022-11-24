@@ -1,0 +1,134 @@
+body {
+
+    background-color: black;
+}
+
+header h1 {
+
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(197, 235, 62);
+    padding-top: 0.3rem;
+    text-align: center;
+    background-color: rgb(87, 9, 9);
+}
+
+
+.banner {
+
+    background-image: url('../../assets/imgs/Puma-Header.jpg');
+    height: 10rem;
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
+
+}
+
+header span {
+
+    background-color: black;
+}
+
+main {
+
+    background-color: gray;
+    margin-top: 0.5rem;
+    border: solid 1px rgb(243, 6, 6);
+    display: flex;
+
+}
+
+.imagen {
+
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+main p {
+
+    width: 80%;
+    float: right;
+    text-align: justify;
+    padding-top: 2rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.caracteristicas {
+
+    background-color: gray;
+    margin-top: 0.5rem;
+    display: flow-root;
+    border: solid 1px rgb(243, 6, 6);
+    text-align: center;
+
+}
+
+.caracteristicas h2 {
+
+    padding-bottom: 2rem;
+
+}
+
+
+.iconos {
+
+    font-size: larger;
+    width: 30%;
+    float: left;
+    padding-right: 1 rem;
+
+}
+
+.fotografia {
+
+    background-color: gray;
+    border: solid 1px rgb(243, 6, 6);
+    width: calc(100% - 2px);
+    margin-top: 0.5rem;
+    display: flow-root;
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+
+}
+
+.foto {
+
+    width: 25%;
+    float: left;
+    padding: auto;
+
+
+}
+
+
+
+.footer {
+
+    background-color: rgb(87, 9, 9);
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+}
+
+.footer p {
+
+
+    font-size: larger;
+    color: darkorange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.footer a {
+    color: darkorange;
+}
+
+a:hover {
+    color: yellow;
+}
